@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css" media="screen and (max-width:1000px)">
+    <title>Website project</title>
+    <script src="https://kit.fontawesome.com/1fdaa60d1c.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <nav id="navbar" >
+        <div class="logo">
+            <a href="#">
+                <img src="about.jpg" alt="Welcome to coding world"></a>
+            <!-- <p>Coding world</p> -->
+        </div>
+        <ul class="navigation">
+            <li class="nav-item"><a href="#"> Home</a></li>
+            <li class="nav-item"><a href="#about"> About</a></li>
+            <li class="nav-item"><a href=""> Blog</a></li>
+            <li class="nav-item"><a href="#contact"> Contact</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" name="" id="search-box" placeholder="Search" onfocus="search()">
+            <i class="fas fa-search fa-2x search-icon"></i>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to coding world</h1>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, molestiae necessitatibus fugiat ipsam rem
+            nisi ullam enim consequatur! Temporibus at est iste incidunt eos maiores rerum, sunt culpa cumque velit enim
+            laboriosam iusto, porro nobis excepturi, assumenda in qui deserunt! Officiis quasi ducimus magni, voluptas
+            alias dolor necessitatibus esse enim!
+        </p>
+    </section>
+    <section id="about">
+        <div class="about-img">
+            <img src="about.jpg" alt="About me">
+        </div>
+        <div class="content">
+            <h1 class="h-primary">About me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat officiis mollitia iure totam assumenda
+                optio quae ut itaque, aliquam similique labore nam est animi repudiandae enim sequi. Provident sequi
+                veniam consequuntur officia impedit cumque obcaecati.</p>
+        </div>
+
+    </section>
+    <section id="languages">
+        <h1 class="h-primary">Programming Languages</h1>
+        <div class="cards-container">
+            <div class="card">
+                <h2>Python</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore velit nemo mollitia eos dolorem
+                    corrupti assumenda recusandae, doloremque, rerum qui quidem laboriosam sapiente optio magnam
+                    voluptatem nisi perspiciatis odit molestiae quaerat! In, minus sit.</p>
+                <button class="btn">Read More</button>
+            </div>
+            <div class="card">
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia soluta, labore quis repellendus
+                    corrupti quasi illum quisquam porro voluptates temporibus reiciendis similique unde animi obcaecati
+                    optio explicabo aperiam possimus adipisci repudiandae vel iste! Officiis.</p>
+                <button class="btn">Read More</button>
+            </div>
+            <div class="card">
+                <h2>C language</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt eos fugiat ullam numquam architecto,
+                    quod atque nemo eligendi ipsa corporis delectus omnis accusantium officia cupiditate dignissimos
+                    perspiciatis natus beatae quaerat aut corrupti pariatur consequatur.</p>
+                <button class="btn">Read More</button>
+            </div>
+            <div class="card">
+                <h2>Lorem, ipsum.</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laborum obcaecati accusantium
+                    vel illo itaque magnam, alias rem deserunt excepturi necessitatibus, a asperiores nihil porro.
+                    Reiciendis sunt id a at, molestiae qui soluta reprehenderit!</p>
+                <button class="btn">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="name">E-Mail</label>
+                    <input type="email" id="name" placeholder="Enter your E-Mail">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone No.</label>
+                    <input type="phone" id="phone" placeholder="Enter your Phone no.">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"
+                        placeholder="Enter you message"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>Copyright &copy; codingworld.com. All rights reserved.</footer>
+<!-- TESTING SERVER -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

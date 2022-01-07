@@ -1,0 +1,36 @@
+#navbar{
+    height: 10vh;
+    transition: all 0.3s;
+}
+.navigation, .search{
+display: none;}
+.hidden-nav{
+    display: block !important;
+    height: 60vh !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ 
+}
+
+.logo{
+    transition: all .3s;
+}
+.hiddenlist, .search{
+    position: relative;
+    display: block;
+    transition: 0.2s;
+    justify-self: center;
+    align-self: center;
+}
+.logo{
+    text-align: left;
+}
+.nav-item{
+    text-align: center;
+}
+
+#navbar .burger{
+    display: block;
+}
