@@ -151,9 +151,9 @@ html{
 }
 
 #home{
-    background: rgba(0, 0, 0, 0.3) ;
-    /* background-size: cover;
-    background-repeat: no-repeat; */
+    background-image: url('bg1.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     height: 50vh;
